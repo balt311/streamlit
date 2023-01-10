@@ -1,4 +1,4 @@
 # requirements.txt
-pyodbc==4.0.30
+pyodbc==4.0.17
 pandas==1.0.5
 numpy==1.22.0
