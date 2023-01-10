@@ -1,2 +1,2 @@
 # requirements.txt
-pyodbc==x.x.x
+pyodbc==4.0.17
