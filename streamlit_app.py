@@ -29,7 +29,7 @@ def run_query(query):
         cur.execute(query)
         return cur.fetchall()
 
-rows = run_query("SELECT * from dbo.CASEGEO;")
+rows = run_query("SELECT * from dbo.CASEGEO WHERE CaseNumber like '23-';")
 
 # Print results.
 for row in rows:
